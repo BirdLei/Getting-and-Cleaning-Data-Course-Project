@@ -41,4 +41,4 @@ for (ss in 1:numSubjects) {
     row = row+1
   }
 }
-write.table(result, "merged_tidy_with_averages.txt")
+write.table(result, "merged_tidy_with_averages.txt",row.name=FALSE )
